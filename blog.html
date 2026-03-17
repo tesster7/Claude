@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Kobo</title>
+  <meta name="description" content="News, insights, and stories from Kobo — data technology for social good." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">K</div>
+        Kobo
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="our-work.html">Our Work</a></li>
+        <li><a href="impact.html">Impact</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="https://www.kobotoolbox.org" target="_blank" class="btn btn-primary">Open KoboToolbox →</a>
+      </div>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav-mobile" id="mobileNav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="our-work.html">Our Work</a></li>
+      <li><a href="impact.html">Impact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="history.html">History</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="https://www.kobotoolbox.org" target="_blank" class="btn btn-primary">Open KoboToolbox</a>
+  </div>
+
+  <!-- ===== BLOG HERO ===== -->
+  <section class="blog-hero">
+    <div class="blog-hero-bg"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb-sep">/</span>
+        <span>Blog</span>
+      </div>
+      <h1 class="fade-in-up">Kobo Blog</h1>
+      <p class="fade-in-up delay-1">News, product updates, field stories, and insights from the Kobo team and global community.</p>
+      <div class="blog-categories fade-in-up delay-2">
+        <button class="blog-cat-btn active">All</button>
+        <button class="blog-cat-btn">Product Updates</button>
+        <button class="blog-cat-btn">Field Stories</button>
+        <button class="blog-cat-btn">Data &amp; Research</button>
+        <button class="blog-cat-btn">Kobo Academy</button>
+        <button class="blog-cat-btn">Organization News</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED POST ===== -->
+  <section class="section--sm">
+    <div class="container">
+      <div class="blog-featured reveal">
+        <div class="blog-featured-img">
+          <span style="position: relative; z-index: 1;">🌍</span>
+        </div>
+        <div class="blog-featured-content">
+          <span class="blog-featured-tag">Field Story</span>
+          <h2 class="blog-featured-title">How KoboToolbox Is Transforming Humanitarian Response Across East Africa</h2>
+          <p style="color: var(--gray-1); font-size: 0.95rem; line-height: 1.7;">
+            Over the past five years, humanitarian organizations across East Africa have been using KoboToolbox to revolutionize how they assess needs, register beneficiaries, and monitor aid distribution — often in some of the most challenging environments on Earth.
+          </p>
+          <div class="blog-featured-meta">
+            <span>📅 March 10, 2025</span>
+            <span>·</span>
+            <span>8 min read</span>
+          </div>
+          <a href="blog-article.html" class="btn btn-primary" style="margin-top: 24px; width: fit-content;">Read Article →</a>
+        </div>
+      </div>
+
+      <!-- ===== BLOG GRID ===== -->
+      <div class="blog-grid">
+        <article class="blog-card reveal">
+          <div class="blog-card-img blog-img-2">📊</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Product Updates</span>
+            <h3 class="blog-card-title">Introducing Advanced Analytics in KoboToolbox: A New Era for Data Visualization</h3>
+            <p class="blog-card-excerpt">We've rebuilt our data visualization suite from the ground up, giving organizations more powerful tools to explore, analyze, and share their data.</p>
+            <div class="blog-card-meta">
+              <span>📅 Feb 28, 2025</span>
+              <span>·</span>
+              <span>5 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal">
+          <div class="blog-card-img blog-img-3">🎓</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Kobo Academy</span>
+            <h3 class="blog-card-title">New Courses Launched: Building Data Capacity for Frontline Organizations</h3>
+            <p class="blog-card-excerpt">Kobo Academy has released five new self-paced courses covering XLSForm design, data analysis, and monitoring & evaluation best practices.</p>
+            <div class="blog-card-meta">
+              <span>📅 Feb 14, 2025</span>
+              <span>·</span>
+              <span>4 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal">
+          <div class="blog-card-img blog-img-4">⚖️</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Field Story</span>
+            <h3 class="blog-card-title">Documenting Human Rights Violations: How Kobo Protects the Protectors</h3>
+            <p class="blog-card-excerpt">Human rights organizations face unique challenges when collecting sensitive data. Learn how Kobo's privacy and encryption features are helping defenders stay safe.</p>
+            <div class="blog-card-meta">
+              <span>📅 Jan 30, 2025</span>
+              <span>·</span>
+              <span>7 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal">
+          <div class="blog-card-img blog-img-5">🔬</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Data &amp; Research</span>
+            <h3 class="blog-card-title">Kobo Research: Using Data to Understand and Combat Climate Displacement</h3>
+            <p class="blog-card-excerpt">Our new applied research initiative is partnering with universities and NGOs to produce rigorous, data-driven evidence on the link between climate change and forced migration.</p>
+            <div class="blog-card-meta">
+              <span>📅 Jan 20, 2025</span>
+              <span>·</span>
+              <span>6 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal">
+          <div class="blog-card-img blog-img-6">💼</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Organization News</span>
+            <h3 class="blog-card-title">Introducing Kobo Services: Expert Support for Purpose-Driven Organizations</h3>
+            <p class="blog-card-excerpt">We've formally launched Kobo Services — a suite of implementation, customization, and data strategy offerings for organizations that need expert guidance alongside the tool.</p>
+            <div class="blog-card-meta">
+              <span>📅 Jan 8, 2025</span>
+              <span>·</span>
+              <span>3 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card reveal">
+          <div class="blog-card-img blog-img-1">🌐</div>
+          <div class="blog-card-body">
+            <span class="blog-card-tag">Product Updates</span>
+            <h3 class="blog-card-title">KoboToolbox Now Supports 50+ Languages — Breaking Barriers for Global Teams</h3>
+            <p class="blog-card-excerpt">We've expanded our language support to over 50 languages, including right-to-left scripts and several indigenous languages, making KoboToolbox accessible to more communities than ever.</p>
+            <div class="blog-card-meta">
+              <span>📅 Dec 19, 2024</span>
+              <span>·</span>
+              <span>4 min read</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <!-- Load More -->
+      <div style="text-align: center; margin-top: 52px;">
+        <button class="btn btn-outline btn-lg" style="min-width: 200px;">Load More Articles</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="section section--bg">
+    <div class="container text-center">
+      <span class="section-label">Stay Updated</span>
+      <h2 class="section-heading">Get the Latest from Kobo</h2>
+      <p class="section-subheading">
+        Join thousands of data practitioners receiving our monthly newsletter with product updates, field stories, and resources.
+      </p>
+      <form style="display: flex; gap: 12px; max-width: 480px; margin: 0 auto;" onsubmit="return false;">
+        <input type="email" placeholder="Your email address" style="flex: 1; padding: 14px 18px; border: 1.5px solid var(--gray-4); border-radius: 10px; font-size: 0.95rem; font-family: inherit; outline: none; transition: border-color 0.2s ease;" onfocus="this.style.borderColor='var(--blue)'" onblur="this.style.borderColor='var(--gray-4)'" />
+        <button type="submit" class="btn btn-primary" style="white-space: nowrap;">Subscribe</button>
+      </form>
+      <p style="font-size: 0.8rem; color: var(--gray-2); margin-top: 14px;">No spam. Unsubscribe at any time.</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">
+            <div class="nav-logo-icon">K</div>
+            Kobo
+          </a>
+          <p>A nonprofit technology organization creating open-source tools and services to improve how data is collected, managed, and used in humanitarian, development, and human rights work.</p>
+          <div class="footer-social">
+            <a href="https://twitter.com/KoboToolbox" target="_blank" title="Twitter/X">𝕏</a>
+            <a href="https://www.linkedin.com/company/kobotoolbox" target="_blank" title="LinkedIn">in</a>
+            <a href="https://github.com/kobotoolbox" target="_blank" title="GitHub">⌥</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Organization</h5>
+          <ul>
+            <li><a href="about.html">About Kobo</a></li>
+            <li><a href="history.html">Our History</a></li>
+            <li><a href="impact.html">Our Impact</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Initiatives</h5>
+          <ul>
+            <li><a href="https://www.kobotoolbox.org" target="_blank">KoboToolbox</a></li>
+            <li><a href="our-work.html#kobo-academy">Kobo Academy</a></li>
+            <li><a href="our-work.html#kobo-services">Kobo Services</a></li>
+            <li><a href="our-work.html#kobo-research">Kobo Research</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="https://community.kobotoolbox.org" target="_blank">Community Forum</a></li>
+            <li><a href="https://support.kobotoolbox.org" target="_blank">Support Center</a></li>
+            <li><a href="contact.html">info@kobo.ngo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Kobo. Cambridge, MA, USA. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Category filter buttons
+    document.querySelectorAll('.blog-cat-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.blog-cat-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
